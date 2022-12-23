@@ -406,6 +406,7 @@ ul {
 .activities-area {
 	overflow: hidden;
 	padding: 60px 0px;
+  background-color:mediumturquoise
 }
 .activities-area .activities-details {
 	margin: 30px 0;
@@ -768,6 +769,7 @@ ul {
 .video-area {
   overflow: hidden;
   padding: 100px 0;
+  background-color: mediumturquoise;
 }
 .video-area .video-content {
   text-align: center;
@@ -1519,4 +1521,12 @@ ul {
 }
 .slider-area .social-media ul li a i:hover {
 	border: 1px solid #ff9f00;
+}
+
+.page-container {
+	padding:55px 0 40px;
+}
+
+.about-img{
+  float: right;
 }
