@@ -1,3 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Aquarium - Welcome </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="img/navio.ico"> 
+        <link rel="apple-touch-icon" href="img/favicon.ico">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- flat-icon css -->
+        <link rel="stylesheet" href="css/flaticon.css">
+        <!-- jquery-ui.min css -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- modernizr css -->
+        <script src="js/angular.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <script src="js/myapp.js"></script>
+          <div class="header-top">
+              <div class="container"> 
+
+              </div>
+          </div>  
+    <div class="main-header-area" ng-controller="menuCtrl">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12">
+                    <div class="logo-area">
+                        <a href="index.html">
+                            <img src="img/logo/Nexus-logo (1).png" alt="">
+                        </a>
+                    </div>
+                </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                <div class="main-menu">
+                    <ul>
+                        <li ><a href="#!/">Home</a></li>
+                        <li><a href="#!active">Activities</a></li>
+                        <li class="dropdown">
+                            <a href="#!event" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">Events<span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#!plan">Plan your visit</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!contact">Contact</a></li>
+                        <li><a href="#!about">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
+                    <div class="buy-ticket">
+                        <a href="#!event"><i class="flaticon-tool" aria-hidden="true"></i>BUY TICKETS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
 <body ng-controller="activeCtrl">
 </main>   
 <div class="breadcumb-area bctwo">
@@ -81,17 +158,16 @@
     </div>
   </div>
 </section>
-<!-- activities area end here -->
-<!-- activities slider area start here -->
+
   <div class="activities-slider">
       <div class="container">
         <div class="row">
           <div class="colo-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="image-area">
+              <div class="image-area" ng-repeat="x in ActivitiesList">
                 <div class="single-image">
                   <div class="image">
                     <a href="#">
-                      <img src="img/activities-slider/1.png" alt="">
+                      <img src="img/activities-slider/{{x.img}}" alt="">
                     </a>
                     <div class="slider-title">
                       <div class="details">
@@ -103,63 +179,11 @@
                     </div>
                   </div>
                     <div class="slider-details">
-                      <h3>Diving With Sharks</h3>
+                      <h3>{{x.name}}</h3>
                     </div>
                 </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/2.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Games & Activities</h3>
-                    </div>
-                </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/3.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Whale shows</h3>
-                    </div>
-                </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/2.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Diving With Sharks</h3>
-                    </div>
-                </div>
+                
+
               </div>
           </div>
         </div>

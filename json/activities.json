@@ -1,0 +1,26 @@
+[
+   {
+    "id":1,
+    "type":"activities",
+    "name":"DIVING WITH SHARKS",
+    "img":"1.png"
+   },
+   {
+      "id":1,
+      "type":"activities",
+      "name":"GAMES & ACTIVITIES",
+      "img":"2.png"
+     },
+   {
+      "id":1,
+      "type":"activities",
+      "name":"WHALE SHOWS",
+      "img":"3.png"
+   },
+   {
+      "id":1,
+      "type":"activities",
+      "name":"DIVING WITH SHARKS",
+      "img":"2.png"
+   }
+]

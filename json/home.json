@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "name":"Having dinner with the sharks",
+        "type":"Home",
+        "img":"2.jpg",
+        "content":"Have you heard about our dinner with the sharks? We are pretty sure you must have heard of it by now.",
+
+        "icon1":"flaticon-social-3",
+        "content1":"Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.",
+        "name1":"Wedding Plans",
+
+        "icon2":"flaticon-social-3",
+        "content2":"Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.",
+        "name2":"first communions"
+
+
+    }
+]
