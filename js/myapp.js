@@ -35,7 +35,7 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
 
 angular.module("home",[])
     .controller("homeCtrl",['$scope','$http',function($scope,$http){
-        $http.get("../json/home.json")
+        $http.get("/json/home.json")
         .then(function(response){
             $scope.HomeList = response.data;
             console.log(response.data);
@@ -56,8 +56,6 @@ angular.module("active",[])
         function(err){
             $scope.ActivitiesList = "Request JSON failed.";
         });
-        
-
 }]);
 
 angular.module("event",[])

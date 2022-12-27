@@ -23,57 +23,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" ng-repeat="x in ActivitiesList">
                 <div class="activities-details">
                     <div class="single-details">
-                        <a href="#"><i class="flaticon-social-3"></i></a>
-                        <h3>Wedding Plans</h3>
-                        <p>Are you planning your wedding? Once you see our facilities you are sure to want to say “I do”.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="flaticon-food-2"></i></a>
-                        <h3>first communions</h3>
-                        <p>Are you a numerous family and need a large room to accommodate all the guests?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="flaticon-technology-2"></i></a>
-                        <h3>Conferences & meetings</h3>
-                        <p>Are you planning your wedding? Once you see our facilities you are sure to want to say “I do”.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="flaticon-people-1"></i></a>
-                        <h3>Our professionals</h3>
-                        <p>To date we have hosted events for a wide variety of national and international companies.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="flaticon-food-3"></i></a>
-                        <h3>catering service</h3>
-                        <p>Our signature celebration cakes are one of the highlights and can be tailor made.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="flaticon-people-4"></i></a>
-                        <h3>TEAMBULDING</h3>
-                        <p>We have prepared a wide variety of activities for promoting team work to help your company.</p>
+                        <a href="#"><i class="{{x.icon}}"></i></a>
+                        <h3>{{x.name}}</h3>
+                        <p>{{x.content}}</p>
                     </div>
                 </div>
             </div>
@@ -85,123 +40,39 @@
 <!-- activities slider area start here -->
   <div class="activities-slider">
       <div class="container">
-        <div class="row">
-          <div class="colo-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="image-area">
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/1.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Diving With Sharks</h3>
-                    </div>
-                </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/2.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Games & Activities</h3>
-                    </div>
-                </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/3.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Whale shows</h3>
-                    </div>
-                </div>
-                <div class="single-image">
-                  <div class="image">
-                    <a href="#">
-                      <img src="img/activities-slider/2.png" alt="">
-                    </a>
-                    <div class="slider-title">
-                      <div class="details">
-                        <p>Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.</p>
-                        <div class="book-now">
-                          <a href="#">book now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="slider-details">
-                      <h3>Diving With Sharks</h3>
-                    </div>
-                </div>
-              </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <div class="section-title">
+              <h2>Outstanding Activities<span>Nexus</span></h2>
           </div>
         </div>
-      </div>
-      <div class="activities-slider">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="activities-text">
-                  <div class="activities-content">
-                    <p>Nexus Aquarium has been awarded the "Travelers' Choice 2016" award by the web advisor rating as one of the best tourist 
-                    attractions of this year, the first aquarium awarded in the list of the best zoos.</p>
-                    <div class="text-details">
-                      <a href="#">
-                      "Travellers Choice 2014"
-                    </a> 
-                    </div>
-                  </div>
-                   <div class="activities-content">
-                    <p>Nexus Aquarium has been awarded the "Travelers' Choice 2016" award by the web advisor rating as one of the best tourist 
-                    attractions of this year, the first aquarium awarded in the list of the best zoos.</p>
-                    <div class="text-details">
-                      <a href="#">
-                       "Travellers Choice 2014"
-                      </a> 
-                    </div>
-                  </div>
-                   <div class="activities-content">
-                    <p>Nexus Aquarium has been awarded the "Travelers' Choice 2016" award by the web advisor rating as one of the best tourist 
-                    attractions of this year, the first aquarium awarded in the list of the best zoos.</p>
-                    <div class="text-details">
-                      <a href="#">
-                       "Travellers Choice 2014"
-                      </a> 
-                    </div>
-                  </div>
-              </div>
-            </div>
+        <!--SlideShow-->
+        <div class="slideshow-container">
+          <div class="mySlides">
+            
+              <img src="img/activities-slider/1.png" style="width:100%">
+            <div class="text">Diving activities combined with visiting the aquarium.</div>
           </div>
+          <div class="mySlides">
+            
+              <img src="img/activities-slider/2.png" style="width:100%">
+            <div class="text">Underwater demonstration activities by professional divers.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="img/activities-slider/3.png" style="width:100%">
+            <div class="text">Professional performance with aquarium-trained fish.</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </div>
-  </div>
+    </div>    
 <!-- activities slider area end here -->
 <!-- activities form area start here -->
 <div class="activities-form-area">

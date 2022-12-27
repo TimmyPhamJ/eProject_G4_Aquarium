@@ -9,19 +9,19 @@
                 </div>
             </div>
         </div>
-        <div class="row" ng-repeat="x in HomeList">
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="slider">
                     <div class="slide">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right acurate">
                             <div class="slider-image">
-                                  <img src="img/slider/{{x.img}}" alt="">
+                                  <img src="img/slider/2.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left acurate">
                             <div class="slider-content">
-                                <h3 class="wow slideInDown">{{x.name}}</h3>
-                                <p class="wow fadeIn" data-wow-delay=".1s">{{x.content}}</p>
+                                <h3 class="wow slideInDown">Having dinner with the sharks</h3>
+                                <p class="wow fadeIn" data-wow-delay=".1s">Have you heard about our dinner with the sharks? We are pretty sure you must have heard of it by now.</p>
                                 <span class="check-events">
                                 <a href="events.html"><i class="wow slideInUp fa fa-calendar-plus-o" aria-hidden="true"></i>CHECK EVENTS</a>
                                 </span>
@@ -33,7 +33,7 @@
         </div>
      </div>
   </div>
-  <section id=activities>
+<section id=activities>
     <div class="activities-area">
       <div class="container">
           <div class="row">
@@ -43,65 +43,20 @@
                   </div>
               </div>
           </div>
-          <div class="row" ng-reqeat="x in HomeList">
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" ng-repeat="x in HomeList">
                   <div class="activities-details">
                       <div class="single-details">
-                          <a href="#"><i class="flaticon-social-3"></i></a>
-                          <h3>Wedding Plans</h3>
-                          <p>Are you planning your wedding? Once you see our facilities you are sure to want to say “I do”.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                  <div class="activities-details">
-                      <div class="single-details">
-                          <a href="#"><i class="flaticon-food-2"></i></a>
-                          <h3>first communions</h3>
-                          <p>Are you a numerous family and need a large room to accommodate all the guests?</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                  <div class="activities-details">
-                      <div class="single-details">
-                          <a href="#"><i class="flaticon-technology-2"></i></a>
-                          <h3>Conferences & meetings</h3>
-                          <p>Are you planning your wedding? Once you see our facilities you are sure to want to say “I do”.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                  <div class="activities-details">
-                      <div class="single-details">
-                          <a href="#"><i class="flaticon-people-1"></i></a>
-                          <h3>Our professionals</h3>
-                          <p>To date we have hosted events for a wide variety of national and international companies.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                  <div class="activities-details">
-                      <div class="single-details">
-                          <a href="#"><i class="flaticon-food-3"></i></a>
-                          <h3>catering service</h3>
-                          <p>Our signature celebration cakes are one of the highlights and can be tailor made.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                  <div class="activities-details">
-                      <div class="single-details">
-                          <a href="#"><i class="flaticon-people-4"></i></a>
-                          <h3>TEAMBULDING</h3>
-                          <p>We have prepared a wide variety of activities for promoting team work to help your company.</p>
+                          <a href="#"><i class="{{x.icon}}"></i></a>
+                          <h3>{{x.name}}</h3>
+                          <p>{{x.content}}</p>
                       </div>
                   </div>
               </div>
           </div>
       </div>
     </div>
-  </section>
+</section>
   <div class="ticket-area">
       <div class="container">
           <div class="row">
