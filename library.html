@@ -23,17 +23,21 @@
   </div>
 </div>
 -->
-<div class="contentOt">
-<mat-card class="mat-elevation-z4">
-  <mat-card-header>
-    <mat-card-title>Clownfish</mat-card-title>
-  </mat-card-header>
-  <img mat-card-image src="../eProject_G4_Aquarium/images/library/R.jpg">
-  <mat-card-content>
-    <p>
-      the con cas caf  chowns nhat the gian 
-    </p>
-  </mat-card-content>
-</mat-card>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-3" ng-repeat="x in LibraryList">
+      <div class="card">
+        <div class="card-header">
+          <h3>{{x.name}}</h3>
+        </div>
+        <div class="card-body">
+          <img src="../images/library/{{x.img}}" class="hinh">
+        </div>
+        <div class="card-footer">
+          <h6>{{x.desc}}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
