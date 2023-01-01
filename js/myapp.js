@@ -35,12 +35,27 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
 
 angular.module("home",[])
     .controller("homeCtrl",['$scope','$http',function($scope,$http){
+        $http.get("/json/home.json")
+        .then(function(response){
+            $scope.HomeList = response.data;
+            console.log(response.data);
+        },
+        function(err){
+            $scope.HomeList = "Request JSON failed.";
+        });
 
 }]);
 
 angular.module("active",[])
     .controller("activeCtrl",['$scope','$http',function($scope,$http){
-
+        $http.get("../json/activities.json")
+        .then(function(response){
+            $scope.ActivitiesList = response.data;
+            console.log(response.data);
+        },
+        function(err){
+            $scope.ActivitiesList = "Request JSON failed.";
+        });
 }]);
 
 angular.module("event",[])
