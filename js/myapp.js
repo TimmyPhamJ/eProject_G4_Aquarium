@@ -80,7 +80,11 @@ angular.module("event",[])
 
 angular.module("contact",[])
     .controller("contactCtrl",['$scope','$http',function($scope,$http){
-
+        $scope.submit = function(){
+            alert('We will contact you as soon as possible.Thanks!!');
+            $scope.server = angular.copy($scope.user);
+            console.log($scope.server);
+        }
 }]);
 
 angular.module("about",[])
