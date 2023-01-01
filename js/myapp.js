@@ -51,9 +51,9 @@ angular.module("home",[])
 }]);
 angular.module("library",[])
     .controller("libraryCtrl",['$scope','$http',function($scope,$http){
-        $http.get("/json/home.json")
+        $http.get("../json/library.json")
         .then(function(response){
-            $scope.HomeList = response.data;
+            $scope.LibraryList = response.data;
             console.log(response.data);
         },
         function(err){
@@ -62,7 +62,7 @@ angular.module("library",[])
 
 }]);
 angular.module("active",[])
-    .controller("activeCtrl",['$scope','$http',function($scope,$http){
+    .controller("activeCtrl",['$scope','$http',function($scope,$http){ 
         $http.get("../json/activities.json")
         .then(function(response){
             $scope.ActivitiesList = response.data;

@@ -17,56 +17,49 @@
         "id":3,
         "type":"library",
         "name":"Swordfish",
-        "img":"R(1).jpg",
+        "img":"R2.jpg",
         "desc":"The swordfish, sometimes called the sawfish, is a large, migratory carnivorous fish with a long, flat bill, in contrast to the smooth, rounded beak of marlins. It is a popular sport fish, although a bit difficult to catch. Swordfish have a round and elongated body, when adults lose all teeth and scales. Maximum dimensions are 4.3 m and 536 kg"
     },
     {
         "id":4,
         "type":"library",
         "name":"Pufferfish",
-        "img":"OIP(1).jpg",
+        "img":"OIP1.jpg",
         "desc":"The Pufferfish family is a family of the order Pufferfish. They are still considered the second most venomous vertebrate in the world, behind only the golden poison dart frog. Their internal organs such as their liver, and sometimes their skin, contain many toxins. Fish poison is concentrated in the skin, intestines, liver, abdominal muscles, seminal vesicles and most in eggs, so females are more toxic than males and especially during the breeding season, that poison is called tetrodotoxin. This is an extremely toxic neurotoxin, more than 1,200 times stronger than cyanide. The toxin of one fish is enough to kill 30 people."
     },
     {
         "id":5,
         "type":"library",
         "name":"Corals",
-        "img":"R(2)jpg",
+        "img":"R3.jpg",
         "desc":"Corals are marine animals of the class Coral that exist as small polyps resembling anemones, often living in populations of many identical individuals. These individuals secrete calcium carbonate to build hard skeletons, building coral reefs in tropical seas."
     },
     {
         "id":6,
         "type":"library",
-        "name":"The molidae",
-        "img":"R(3).jpg",
-        "desc":"The Molidae comprise the family of the molas or ocean sunfishes, unusual fish whose bodies come to an end just behind the dorsal and anal fins, giving them a 'half fish' appearance"
+        "name":"The northern spike",
+        "img":"OIP2.jpg",
+        "desc":"The northern pike, known simply as the pike in Great Britain, Ireland, most parts of the United States, or jackfish in Canada or simply 'Northern' in the Upper Midwest of the United States), is a species of fish. cannibals of the genus Esox. They are typical of brackish and freshwater regions of the Northern Hemisphere."
     },
     {
         "id":7,
         "type":"library",
-        "name":"The northern spike",
-        "img":"OIP(2).jpg",
-        "desc":"The northern pike, known simply as the pike in Great Britain, Ireland, most parts of the United States, or jackfish in Canada or simply 'Northern' in the Upper Midwest of the United States), is a species of fish. cannibals of the genus Esox. They are typical of brackish and freshwater regions of the Northern Hemisphere."
+        "name":"Dolphin",
+        "img":"R5.jpg",
+        "desc":"Dolphins are marine mammals that are closely related to whales. There are nearly 40 species of dolphins in 17 genera that live in the oceans, with a few remaining in some rivers around the world. The size of dolphins can range from 1.2 m and 40 kg, up to 9.5 m and 10 tons. Dolphins are found worldwide and usually inhabit the shallow seas of the continental shelf. Dolphins are carnivores, eating mainly fish and squid. The Delphinidae are the largest family of dolphins and also the last to appear: about 10 million years ago, during the Middle Age. Dolphins are among the most intelligent animals and are well known in human culture for their friendly appearance and playful and exuberant attitude towards humans."
     },
     {
         "id":8,
         "type":"library",
-        "name":"Dolphin",
-        "img":"R(4).jpg",
-        "desc":"Dolphins are marine mammals that are closely related to whales. There are nearly 40 species of dolphins in 17 genera that live in the oceans, with a few remaining in some rivers around the world. The size of dolphins can range from 1.2 m and 40 kg, up to 9.5 m and 10 tons. Dolphins are found worldwide and usually inhabit the shallow seas of the continental shelf. Dolphins are carnivores, eating mainly fish and squid. The Delphinidae are the largest family of dolphins and also the last to appear: about 10 million years ago, during the Middle Age. Dolphins are among the most intelligent animals and are well known in human culture for their friendly appearance and playful and exuberant attitude towards humans."
+        "name":"The order turtle",
+        "img":"OIP3.jpg",
+        "desc":"The order Turtles are reptiles belonging to the crown group of the superorder Chelonia. In Vietnamese, species of tortoise are called by many different names such as turtle, tortoise, tortoise, turtle, tortoise... In culture, turtles are recognized under many different degrees depending on the culture. . Turtles are considered one of the animals with the most cultural symbolic meanings."
     },
     {
         "id":9,
         "type":"library",
-        "name":"The order turtle",
-        "img":"OIP(3).jpg",
-        "desc":"The order Turtles are reptiles belonging to the crown group of the superorder Chelonia. In Vietnamese, species of tortoise are called by many different names such as turtle, tortoise, tortoise, turtle, tortoise... In culture, turtles are recognized under many different degrees depending on the culture. . Turtles are considered one of the animals with the most cultural symbolic meanings."
-    },
-    {
-        "id":10,
-        "type":"library",
         "name":"Starfish",
-        "img":"OIP(4).jpg",
+        "img":"OIP4.jpg",
         "desc":"Starfish is the common name for echinoderms of the class Asteroidea. The origin of the name 'starfish' is mainly based on members of the class Asteroidea. Usually, however, the use of the word 'starfish' also applies to the ophiuroid, more commonly known as 'brittle star' or 'basket star'."
     }
 ]

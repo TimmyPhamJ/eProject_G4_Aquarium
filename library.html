@@ -5,14 +5,115 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
         <ul>
-          <li><a href="#!/">Library</a></li>
+          <li><a href="#!/">Home</a></li>
           <li>Library</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
+<section id=library>
+  <div> class="Library-area">
+    <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" ng-repeat="x in LibraryList">
+                <div class="section-title">
+                    <div class="library-slider">
+      <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <div class="section-title">
+              <h2>Typical animals<span>Top9</span></h2>
+          </div>
+        </div>
 </section>
+<!-- library area end here -->
+<!-- library slider area start here -->
+  <div class="library-slider">
+      <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <div class="section-title">
+              <h2>Typical animals <span>Top10</span></h2>
+                </div>
+              </div>
+          </div>      
+                  <div class="library-details">
+                      <div class="single-details">
+                          <a href="#"><i class="{{x.icon}}"></i></a>
+                          <h3>{{x.name}}</h3>
+                          <p>{{x.content}}</p>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+        <!--SlideShow-->
+        <div class="slideshow-container">
+          <div class="mySlides">
+            
+              <img src="images/library/OIP.jpg" style="width:10%">
+            <div class="text">Seahorse.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/OIP1.jpg" style="width:10%">
+            <div class="text">Pufferfish.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="../images/library/OIP2.jpg" style="width:10%">
+            <div class="text">The northern spike.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/OIP3.jpg" style="width:10%">
+            <div class="text">The order turtle.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/OIP4.jpg" style="width:10%">
+            <div class="text">Starfish.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/R.jpg" style="width:10%">
+            <div class="text">Clownfish.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/R2.jpg" style="width:10%">
+            <div class="text">Swordfish.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/R3.jpg" style="width:10%">
+            <div class="text">Corals.</div>
+          </div>
+          <div class="mySlides">
+            
+              <img src="images/library/R5.jpg" style="width:10%">
+            <div class="text">Dolphin.</div>
+          </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </div>    
 <!-- footer area start here -->
 <script src="Librarydefault.html"></script>
 </body>
