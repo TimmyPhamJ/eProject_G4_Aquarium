@@ -1,0 +1,42 @@
+[
+   {
+       "id":"1",
+       "icon":"flaticon-social-3",
+       "content":"Scuba divers with the opportunity to enjoy the unique experience of diving into the sea.",
+       "name":"Wedding Plans"
+   },
+   {
+       "id":"2",
+       "icon":"flaticon-food-2",
+       "content":"Are you a numerous family and need a large room to accommodate all the guests?",
+       "name":"FIRST COMMUNIONS"
+   },
+   {
+       "id":"3",
+       "icon":"flaticon-technology-2",
+       "content":"Are you planning your wedding? Once you see our facilities you are sure to want to say “I do”.",
+       "name":"CONFERENCES & MEETINGS"
+   },
+   {
+       "id":"4",
+       "icon":"flaticon-people-1",
+       "content":"To date we have hosted events for a wide variety of national and international companies.",
+       "name":"Our professionals"
+   },
+   {
+       "id":"5",
+       "icon":"flaticon-food-3",
+       "content":"Our signature celebration cakes are one of the highlights and can be tailor made.",
+       "name":"catering service"
+   },
+   {
+       "id":"6",
+       "icon":"flaticon-people-4",
+       "content":"We have prepared a wide variety of activities for promoting team work to help your company.",
+       "name":"TEAMBULDING"
+   },
+   {
+      "type":"activities",
+      "img":"1.jpg"
+   }
+]
