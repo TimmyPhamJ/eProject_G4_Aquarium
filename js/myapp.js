@@ -1,6 +1,7 @@
 var myApp =angular.module("myApp", [
     'ngRoute',
     'home',
+    'library',
     'active',
     'event',
     'contact',
@@ -13,6 +14,10 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
     $routeProvider
     .when("/",{
         templateUrl:"home.html",controller:"homeCtrl"
+    })
+    .when("/library",{
+        templateUrl:"library.html",
+        controller:"libraryCtrl"
     })
     .when("/active",{
         templateUrl:"activities.html",controller:"activeCtrl"
@@ -43,11 +48,21 @@ angular.module("home",[])
         function(err){
             $scope.HomeList = "Request JSON failed.";
         });
+}]);
+angular.module("library",[])
+    .controller("libraryCtrl",['$scope','$http',function($scope,$http){
+        $http.get("../json/library.json")
+        .then(function(response){
+            $scope.LibraryList = response.data;
+            console.log(response.data);
+        },
+        function(err){
+            $scope.LibraryList = "Request JSON failed.";
+        });
 
 }]);
-
 angular.module("active",[])
-    .controller("activeCtrl",['$scope','$http',function($scope,$http){
+    .controller("activeCtrl",['$scope','$http',function($scope,$http){ 
         $http.get("../json/activities.json")
         .then(function(response){
             $scope.ActivitiesList = response.data;
