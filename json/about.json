@@ -1,0 +1,19 @@
+[
+        {
+        "img":"thuan.jpg",
+        "cap":"Team Leader",
+        "name":"Phan Vinh Thuan"
+        },
+
+        {
+        "img":"minh.jpg",
+        "cap":"Dev",
+        "name":"Pham Tuan Minh"
+        },
+
+        {
+        "img":"huy.jpg",
+        "cap":"Dev",
+        "name":"Nguyen Tan Huy"
+        }
+]
