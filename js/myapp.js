@@ -34,7 +34,6 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
     .when("/plan",{
         templateUrl:"plan.html",controller:"planCtrl"
     })
-
 }]);
 
 
@@ -88,7 +87,15 @@ angular.module("contact",[])
 }]);
 
 angular.module("about",[])
-    .controller("aboutCtrl",['$scope','$http',function($scope,$http){
+.controller("aboutCtrl",['$scope','$http',function($scope,$http){ 
+    $http.get("../json/about.json")
+    .then(function(response){
+        $scope.AboutList = response.data;
+        console.log(response.data);
+    },
+    function(err){
+        $scope.AboutList = "Request JSON failed.";
+    });
 
 }]);
 
@@ -103,5 +110,16 @@ angular.module("menu",[])
         $scope.$on('$routeChangeSuccess',function(){
             $scope.activePath = $location.path();
             console.log($location.path());
+        });
+    }]);
+
+angular.module("aboutus", [])
+    .controller("aboutCtrl", ['$scope','$http', function($scope,$http){
+         //Lập trình
+         $http.get("..json/about.json")
+        .then(function(response){
+            var data = response.data;
+            $scope.dataList = data;
+            console.log($scope.dataList);
         });
     }]);
