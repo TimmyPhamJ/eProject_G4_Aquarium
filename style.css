@@ -1539,6 +1539,7 @@ ul {
    max-width: 1000px;
    position: relative;
    margin: auto;
+   
  }
 /* ẩn hình ảnh cho phần tử slideshow */
  .mySlides {
@@ -1645,4 +1646,18 @@ ul {
 .hh13{
   color: black !important;
   text-align: center;
+}
+
+.csw-btn-button {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 35px;
+  color: #ffffff !important;
+  border-radius: 5px;
+  background: #9B6A1D;
+  border: 1px solid #9B6A1D;
+  transition: 0.4s;
+}
+.csw-btn-button:hover {
+  background: #292929;
 }
