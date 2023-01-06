@@ -1,77 +1,76 @@
 <body ng-controller="activeCtrl">
-</main>   
-<div class="breadcumb-area bctwo">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
-        <ul>
-          <li><a href="#!/">Home</a></li>
-          <li>Activities</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<section id=activities>
-  <div class="activities-area">
+  <div class="breadcumb-area bctwo">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <div class="section-title">
-                    <h2>Our Activities <span>Nexus</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" ng-repeat="x in ActivitiesList">
-                <div class="activities-details">
-                    <div class="single-details">
-                        <a href="#"><i class="{{x.icon}}"></i></a>
-                        <h3>{{x.name}}</h3>
-                        <p>{{x.content}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-</section>
-<!-- activities area end here -->
-<!-- activities slider area start here -->
-  <div class="activities-slider">
-      <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-          <div class="section-title">
-              <h2>Outstanding Activities<span>Nexus</span></h2>
-          </div>
-        </div>
-        <!--SlideShow-->
-        <div class="slideshow-container">
-          <div class="mySlides">
-            
-              <img src="img/activities-slider/1.png" style="width:100%">
-            <div class="text">Diving activities combined with visiting the aquarium.</div>
-          </div>
-          <div class="mySlides">
-            
-              <img src="img/activities-slider/2.png" style="width:100%">
-            <div class="text">Underwater demonstration activities by professional divers.</div>
-          </div>
-          <div class="mySlides">
-            
-              <img src="img/activities-slider/3.png" style="width:100%">
-            <div class="text">Professional performance with aquarium-trained fish.</div>
-          </div>
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-        <br>
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
+          <ul>
+            <li><a href="#!/">Home</a></li>
+            <li>Activities</li>
+          </ul>
         </div>
       </div>
-    </div>    
-<script src="activitiesdefault.html"></script>
-</body>
+    </div>
+  </div>
+  <section id=activities>
+    <div class="activities-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                  <div class="section-title">
+                      <h2>Our Activities <span>Nexus</span></h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center" ng-repeat="x in ActivitiesList">
+                  <div class="activities-details">
+                      <div class="single-details">
+                          <a href="#"><i class="{{x.icon}}"></i></a>
+                          <h3>{{x.name}}</h3>
+                          <p>{{x.content}}</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- activities area end here -->
+  <!-- activities slider area start here -->
+    <div class="activities-slider">
+        <div class="container">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <div class="section-title">
+                <h2>Outstanding Activities<span>Nexus</span></h2>
+            </div>
+          </div>
+          <!--SlideShow-->
+          <div class="slideshow-container">
+            <div class="mySlides">
+              
+                <img src="img/activities-slider/1.png" style="width:100%">
+              <div class="text">Diving activities combined with visiting the aquarium.</div>
+            </div>
+            <div class="mySlides">
+              
+                <img src="img/activities-slider/2.png" style="width:100%">
+              <div class="text">Underwater demonstration activities by professional divers.</div>
+            </div>
+            <div class="mySlides">
+              
+                <img src="img/activities-slider/3.png" style="width:100%">
+              <div class="text">Professional performance with aquarium-trained fish.</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </div>    
+  <script src="activitiesdefault.html"></script>
+  </body>
