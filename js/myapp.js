@@ -7,7 +7,8 @@ var myApp =angular.module("myApp", [
     'contact',
     'about',
     'plan',
-    'menu'
+    'menu',
+    'buy'
 ]);
 
 myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
@@ -33,6 +34,9 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
     })
     .when("/plan",{
         templateUrl:"plan.html",controller:"planCtrl"
+    })
+    .when("/buy",{
+        templateUrl:"buy.html",controller:"buyCtrl"
     })
 }]);
 
@@ -122,4 +126,9 @@ angular.module("aboutus", [])
             $scope.dataList = data;
             console.log($scope.dataList);
         });
+    }]);
+
+angular.module("buy", [])
+    .controller("buyCtrl", ['$scope','$http', function($scope,$http){
+         //Lập trình
     }]);
