@@ -36,7 +36,7 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
         templateUrl:"plan.html",controller:"planCtrl"
     })
     .when("/buy",{
-        templateUrl:"buy.html",controller:"buyCtrl"
+        templateUrl:"buynow.html",controller:"buyCtrl"
     })
 }]);
 
@@ -128,7 +128,7 @@ angular.module("aboutus", [])
         });
     }]);
 
-angular.module("buy", [])
-    .controller("buyCtrl", ['$scope','$http', function($scope,$http){
-         //Lập trình
+angular.module("buy",[])
+    .controller("buyCtrl",['$scope','$http',function($scope,$http){
+
     }]);
