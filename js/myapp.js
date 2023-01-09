@@ -43,7 +43,7 @@ myApp.config(["$routeProvider","$locationProvider",function($routeProvider){
 
 angular.module("home",[])
     .controller("homeCtrl",['$scope','$http',function($scope,$http){
-        $http.get("/json/home.json")
+        $http.get("json/home.json")
         .then(function(response){
             $scope.HomeList = response.data;
             console.log(response.data);
@@ -54,7 +54,7 @@ angular.module("home",[])
 }]);
 angular.module("library",[])
     .controller("libraryCtrl",['$scope','$http',function($scope,$http){
-        $http.get("../json/library.json")
+        $http.get("json/library.json")
         .then(function(response){
             $scope.LibraryList = response.data;
             console.log(response.data);
@@ -66,7 +66,7 @@ angular.module("library",[])
 }]);
 angular.module("active",[])
     .controller("activeCtrl",['$scope','$http',function($scope,$http){ 
-        $http.get("../json/activities.json")
+        $http.get("json/activities.json")
         .then(function(response){
             $scope.ActivitiesList = response.data;
             console.log(response.data);
@@ -92,7 +92,7 @@ angular.module("contact",[])
 
 angular.module("about",[])
 .controller("aboutCtrl",['$scope','$http',function($scope,$http){ 
-    $http.get("../json/about.json")
+    $http.get("json/about.json")
     .then(function(response){
         $scope.AboutList = response.data;
         console.log(response.data);
@@ -120,7 +120,7 @@ angular.module("menu",[])
 angular.module("aboutus", [])
     .controller("aboutCtrl", ['$scope','$http', function($scope,$http){
          //Lập trình
-         $http.get("..json/about.json")
+         $http.get("json/about.json")
         .then(function(response){
             var data = response.data;
             $scope.dataList = data;
