@@ -23,44 +23,25 @@
                 </div>
             </div>
         </div>
-          <div>
-              <div>
-                <div>
-                  <ul>
-                    <div>
-                      <h2 class="textevent">Auditorium</h2><br>
-                      <center><img src="img/venues/1.png" alt=""></center>
-                      <h4 class="texteventt"> To enjoy an open-air setting with direct access from the Planeta Aqua Room, we offer our terrace.
-                      </h4>
-                    </div>
-                    <div>
-                      <h2 class="textevent">Aqua Room</h2><br>
-                      <center><img src="img/venues/2.png" alt=""></center>
-                      <h4 class="texteventt"> Nexus Aquarium also boasts a number of spaces to complement events being held with facilities for issuing accreditations, receptions, etc. 
-                      </h4>
-                      <h4 class="texteventt"> We also offer you the possibility of launching your product in a unique and all
-                      spectacular way: submerged under water, thus enhancing the impact on the same audience. 
-                      </h4>
-                    </div>
-                    <div>
-                      <h2 class="textevent">Shows Hall</h2><br>
-                      <center><img src="img/venues/3.png" alt=""></center>
-                      <h4 class="texteventt"> Nexus Aquarium also boasts a number of spaces to complement events being held with facilities for issuing accreditations, receptions, etc.
-                      </h4>
-                      <h4 class="texteventt"> We also offer you the possibility of launching your product in a unique and all
-                      spectacular way: submerged under water, thus enhancing the impact on the same audience.
-                      </h4>
-                    </div>
-                    <div>
-                      <h2 class="textevent">Main Room</h2><br>
-                      <center><img src="img/venues/4.png" alt=""></center>
-                      <h4 class="texteventt"> With a capacity of up to 450, it is an ideal venue for dinners, cocktail parties and presentations, and can be adapted to recreate different settings or host entertainment shows.
-                      </h4>
-                    </div>
-                  </div>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-3" ng-repeat="x in EventsList">
+              <div class="card">
+                <div class="card-header">
+                  <h3>{{x.name}}</h3>
                 </div>
+                <div class="kieuli">
+                  <img src="img/venues/{{x.img}}" class="kieuli">
+                </div>
+                <details>
+                  <summary>More Info</summary>
+                  <div class="card-footer">
+                    <p>{{x.desc}}</p>
+                  </div>
+                </details>
               </div>
             </div>
           </div>
         </div>
+        
                 

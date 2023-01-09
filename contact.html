@@ -1,5 +1,5 @@
 <body ng-controller="contactCtrl">
-         
+         <link href="js/main.js">
     <!-- Breadcumb Area Start Here -->
     <div class="breadcumb-area">
       <div class="container">
@@ -31,11 +31,11 @@
                 <p>Get in touch with us.</p>
                 <p>We look forward in helping you with everything you need so please feel free to contact us anytime, as we are at your disposition.</p>
                 <div class="contact-details">
-                  <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>4675 Grove Avenue, OK 742</a>
-                  <a href="#"><i class="flaticon-web-1" aria-hidden="true"></i>support@Nexus-aquarium.com</a>
-                  <a href="#"><i class="flaticon-web-1" aria-hidden="true"></i>tickets@Nexus-aquarium.com</a>
-                  <a href="#"><i class="flaticon-technology" aria-hidden="true"></i>(012) 345 - 6789</a>
-                  <a href="#"><i class="fa fa-print" aria-hidden="true"></i>4675 (012) 345 - 3175</a>
+                  <a><i class="fa fa-map-marker" aria-hidden="true"></i>4675 Grove Avenue, OK 742</a>
+                  <a><i class="flaticon-web-1" aria-hidden="true"></i>support@Nexus-aquarium.com</a>
+                  <a><i class="flaticon-web-1" aria-hidden="true"></i>tickets@Nexus-aquarium.com</a>
+                  <a><i class="flaticon-technology" aria-hidden="true"></i>(012) 345 - 6789</a>
+                  <a><i class="fa fa-print" aria-hidden="true"></i>4675 (012) 345 - 3175</a>
                 </div>
               </div>
             </div>
@@ -45,18 +45,30 @@
               <div class="contact-details">
                 <i class="fa fa-pencil"></i>
                 <h2>contact form</h2>
+                <div class="container">  
                 <div>
-                  <form action="#" class="textform">
-                    <label>Your Name:<input type="text"  name="hoten" required></label>
-                    <br>
-                    <label>Your Email:<input type="text"  name="email" required></label>
-                    <br>
-                    <label>Your Phone:<input type="text"  name="Phone" required></label>
-                    <br>
-                    <label>Your Message:<input type="text"  name="message" required></label>
-                    <br>
-                    <input class="nutcontact" type="submit" value="Send Message">
-                  </form>
+                  <section id="contact">
+                    <div class="contact-wrapper">
+                      <form id="contact-form" class="form-horizontal" role="form" action="#">
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                          </div>
+                        </div>
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                        <button class="btn btn-primary send-button" id="submit" type="submit">
+                          <div class="alt-send-button">
+                            <i class="fa fa-paper-plane"></i><span class="send-text" ng-onclick=""><a href="#"></span></a>
+                          </div>
+                        </button>
+                      </form>
+                    </div>
+                  </section>   
                 </div>
               </div>
             </div>

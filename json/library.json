@@ -54,12 +54,5 @@
         "name":"The order turtle",
         "img":"OIP3.jpg",
         "desc":"The order Turtles are reptiles belonging to the crown group of the superorder Chelonia. In Vietnamese, species of tortoise are called by many different names such as turtle, tortoise, tortoise, turtle, tortoise... In culture, turtles are recognized under many different degrees depending on the culture. . Turtles are considered one of the animals with the most cultural symbolic meanings."
-    },
-    {
-        "id":9,
-        "type":"library",
-        "name":"Starfish",
-        "img":"OIP4.jpg",
-        "desc":"Starfish is the common name for echinoderms of the class Asteroidea. The origin of the name 'starfish' is mainly based on members of the class Asteroidea. Usually, however, the use of the word 'starfish' also applies to the ophiuroid, more commonly known as 'brittle star' or 'basket star'."
     }
 ]
