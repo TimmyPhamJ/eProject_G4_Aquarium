@@ -10,29 +10,20 @@ USER GUIDE
 
 Just open the index.html page. An aquarium is waiting for you to explore too.
 
-FUNCTIONS OF THE WEB
+OUR WEBSITE MEETS THE FOLLOWING REQUIREMENTS
 
-The Website is to be created based on the following requirements:
+1)	The Home page must have well defined logo and image of the sea creatures.
+2)	Apart from home link, other links such as gallery section, certain information about animals (marine life animals) they have.
+3)	Contact details must be added. Address of the Company should be displayed using GeoLocation API (eg. GoogleMaps) and the email address which when clicked will invoke the local mail client from where they can send an email.
+4)	Events (separately for children) must be stated in the website with the proper schedule and details.
+5)	Online booking of event (Dummy page where information must be entered, and validation checking must be done)
+6)	Timing and location must be stated in the website. Location should be displayed using GeoLocation API (eg. GoogleMaps)
+7)	Images of the aquarium location (site seeing must be included)
+8)	Navigation must be maintained smooth.
+9)	Color combination must be precise and uniformity must be maintained.
+10)	Categorization of the marine life animals and there different species information should be shown in tabular form.
+11)	Feedback form (dummy) should be provided.
 
-The Home Page should be created with proper sections, graphic and logo.
-
-A Menu should be created which would categorize all the information about the features provided in the site.
-
-Filter/Search bar should be provided to user to select products, brands as desired.
-
-The information should be categorized according to the Brand names of Mobiles like if a User want to see only Apple phones the he click on Apple button and he will see only that Brand phones and so on.
-
-A brief summary of features of Individual Phones should be displayd on the site along with the Cell phone but detailed features should be stored in Individual Word documents which can be downloaded or viewed by the User who wishes to see the same.
-
-A comparison module should also be there where there is Phone Comparisons done with various models of same brands or various models of various brands.
-
-User should be allowed to provide Ratings about products.
-
-When a particular brand phones are being displayed the background image of the web page should show the logo of that brand.
-
-About Us and Contact Us: This menu option should display Email ID, Address, and Contact Number.
-
-The colour schemes should be soothing throughout the project.
 
 WAYS TO GREAT THINGS
 
