@@ -45,33 +45,24 @@
               <div class="contact-details">
                 <i class="fa fa-pencil"></i>
                 <h2>contact form</h2>
-                <div class="form">
-                    <form>
-                        <input type="text" class="form-control" id="Name" placeholder="Name" ng-model="user.name">
-                    </form>
-                </div>   
-                <div class="form">
-                    <form>
-                        <input type="email" class="form-control" id="Email" placeholder="Email Address" ng-model="user.mail">
-                    </form>
-                </div>
-                <div class="form">
-                    <form>
-                        <input type="text" class="form-control" id="phone" placeholder="Phone" ng-model="user.phone">
-                    </form>
-                </div>
-                <div class="form">
-                    <textarea class="textarea form-control" cols="40" rows="10" name="message" placeholder="Your Message" ng-model="user.mess"></textarea>
-                </div>
-                <div class="form">
-                  <input class="btn btn-warning" type="submit" ng-click="submit()" value="Send Message">
+                <div>
+                  <form action="#" class="textform">
+                    <label>Your Name:<input type="text"  name="hoten" required></label>
+                    <br>
+                    <label>Your Email:<input type="text"  name="email" required></label>
+                    <br>
+                    <label>Your Phone:<input type="text"  name="Phone" required></label>
+                    <br>
+                    <label>Your Message:<input type="text"  name="message" required></label>
+                    <br>
+                    <input class="nutcontact" type="submit" value="Send Message">
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     <!-- contact area end here -->
 </body>
 
