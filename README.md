@@ -38,8 +38,11 @@ Backup Files: https://www.mediafire.com/file/3wicwr3f95s3q8q/eProject_G4_Aquariu
 COLLABORATORS
 
 Phan Vinh Thuan        Student1420717
+
 Pham Tuan Minh         Student1414368
+
 Nguyen Tuan Huy        Student1420708
+
 Nguyen Hoang Anh Minh  Student1416064
 
 INSTRUCTOR
