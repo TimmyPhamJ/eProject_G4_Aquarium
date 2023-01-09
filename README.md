@@ -15,7 +15,7 @@ Group members Name Student ID
                     Nguyen Hoang Anh Minh  Student1416064
 ============================
 
-eProject documentation at: https://github.com/levietdongqt/Persol/tree/main/Review
+eProject documentation at: https://github.com/TimmyPhamJ/eProject_G4_Aquarium/tree/main/document
 
 ============================
 
