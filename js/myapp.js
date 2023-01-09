@@ -78,6 +78,14 @@ angular.module("active",[])
 
 angular.module("event",[])
     .controller("eventCtrl",['$scope','$http',function($scope,$http){
+        $http.get("json/events.json")
+        .then(function(response){
+            $scope.EventsList = response.data;
+            console.log(response.data);
+        },
+        function(err){
+            $scope.LibraryList = "Request JSON failed.";
+        });
 
 }]);
 
