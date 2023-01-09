@@ -56,7 +56,7 @@
 <p dir="auto">Trailer: <a href="https://www.youtube.com/watch?v=mazuJ-lh39w" rel="nofollow">https://www.youtube.com/watch?v=riYAYDN7p6I&t=51s</a></p>
 </li>
 <li>
-<p dir="auto">Explore our dedicated website: <a href="https://naymihtah.github.io/blackandblue/#!/" rel="nofollow">https://naymihtah.github.io/blackandblue/#!/</a></p>
+<p dir="auto">Explore our dedicated website: <a href="https://timmyphamj.github.io/eProject_G4_Aquarium/" rel="nofollow">https://timmyphamj.github.io/eProject_G4_Aquarium/</a></p>
 </li>
 <li>
 <p dir="auto">Review - Documents: <a href="https://www.mediafire.com/folder/4rgc8prnpnjtk/review-documents" rel="nofollow">https://www.mediafire.com/folder/4rgc8prnpnjtk/review-documents</a></p>
