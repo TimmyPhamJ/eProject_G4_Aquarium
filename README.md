@@ -23,7 +23,7 @@ eProject published at: https://github.com/TimmyPhamJ/eProject_G4_Aquarium
 
 ============================
 
-eProject video published at: https://www.youtube.com/watch?v=N-Uy5Z-5lJ8
+eProject video published at: https://www.youtube.com/watch?v=riYAYDN7p6I&t=26s
 
 ============================
 
