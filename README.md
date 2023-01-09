@@ -19,7 +19,7 @@ eProject documentation at: https://github.com/TimmyPhamJ/eProject_G4_Aquarium/tr
 
 ============================
 
-eProject published at: https://levietdongqt.github.io/Persol/#!/
+eProject published at: https://github.com/TimmyPhamJ/eProject_G4_Aquarium
 
 ============================
 
