@@ -53,7 +53,7 @@
 <hr>
 <ol dir="auto">
 <li>
-<p dir="auto">Trailer: <a href="https://www.youtube.com/watch?v=riYAYDN7p6I&t=51s" rel="nofollow">https://www.youtube.com/watch?v=riYAYDN7p6I&t=51s</a></p>
+<p dir="auto">Trailer: <a href="https://www.youtube.com/watch?v=r7U3xZ6iLEc" rel="nofollow">https://www.youtube.com/watch?v=r7U3xZ6iLEc</a></p>
 </li>
 <li>
 <p dir="auto">Explore our dedicated website: <a href="https://timmyphamj.github.io/eProject_G4_Aquarium/" rel="nofollow">https://timmyphamj.github.io/eProject_G4_Aquarium/</a></p>
