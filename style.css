@@ -1389,7 +1389,6 @@ ul {
 }
 .venues-area .venue-details .tab-content .tab-pane .content-venue .title-venue a {
   margin-bottom: 20px;
-  
   font-size: 15px;
   display: block;
 }
@@ -1663,4 +1662,55 @@ ul {
 }
 
 /* formbuy*/
+
+.textacti{
+text-align: center;
+}
+
+.textfrom{
+  text-align: left;
+  
+}
+
+.tf{
+  text-align: right;
+  
+  width: 100%;
+}
+
+.nutcontact{
+  background: mediumturquoise;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+}
+
+.textevent{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: mediumturquoise;
+  padding: auto;
+}
+
+.texteventt{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  padding: auto;
+}
+
+.kieuli{
+  font-family:'Courier New', Courier, monospace;
+  width: 300px;
+  height: 200px;
+  
+}
+
+.kieuac{
+  font-family:'Courier New', Courier, monospace;
+  width: 600px;
+  height:400px;
+  
+}
+
 

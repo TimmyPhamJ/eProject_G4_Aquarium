@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "type":"Events",
+        "name":"Auditorium",
+        "img":"1.png",
+        "desc":"To enjoy an open-air setting with direct access from the Planeta Aqua Room, we offer our terrace."
+    },
+    {
+        "id":2,
+        "type":"Events",
+        "name":"Aqua Room",
+        "img":"2.png",
+        "desc":"Nexus Aquarium also boasts a number of spaces to complement events being held with facilities for issuing accreditations, receptions, etc. We also offer you the possibility of launching your product in a unique and all spectacular way: submerged under water, thus enhancing the impact on the same audience."
+    },
+    {
+        "id":3,
+        "type":"Events",
+        "name":"Shows Hall",
+        "img":"3.png",
+        "desc":"Nexus Aquarium also boasts a number of spaces to complement events being held with facilities for issuing accreditations, receptions, etc. We also offer you the possibility of launching your product in a unique and all spectacular way: submerged under water, thus enhancing the impact on the same audience."
+    },
+    {
+        "id":4,
+        "type":"Events",
+        "name":"Main Room",
+        "img":"4.png",
+        "desc":"With a capacity of up to 450, it is an ideal venue for dinners, cocktail parties and presentations, and can be adapted to recreate different settings or host entertainment shows."
+    }
+    
+]
